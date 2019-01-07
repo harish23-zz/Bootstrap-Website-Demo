@@ -15,8 +15,29 @@ section{
 }
 
 .sectionHeader {
-    background-color: #333;
+    background-color: rgba(0,0,0,0.5);
     color: #ddd;
-    padding: 2%;
-    width:96%;
+    width:100%;
+    padding:2% 0;
+    margin:0 auto;
+    text-align:center;
+
+}
+
+.individualTrusteeWrapper{
+    display:inline-block
+}
+
+.newDevelopmentLayer {
+    background: url('Images/Mabelle_Luke_New_Development.png') no-repeat;
+    background-size:100%;
+    background-position:center;
+    background-attachment:fixed;
+    height:400px;
+    width:100%;
+}
+
+#abouUsCarousel{
+    text-align:center;
+    margin: 0 auto;
 }
